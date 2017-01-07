@@ -1,0 +1,28 @@
+#toolbar {
+  background-color: #fff;
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+#menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+
+  li a {
+    cursor: pointer;
+  }
+}
+
+#settingsMenu {
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 100px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  z-index: 1001;
+}

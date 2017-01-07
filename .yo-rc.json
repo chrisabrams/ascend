@@ -1,0 +1,12 @@
+{
+  "generator-racket": {
+    "generatorVersion": "1.6.0",
+    "appName": "ascend",
+    "filters": {
+      "postcss": true,
+      "reduxSaga": false,
+      "reduxThunk": true,
+      "reduxForm": false
+    }
+  }
+}

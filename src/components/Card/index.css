@@ -1,0 +1,67 @@
+.card {
+  background-color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  width: calc(100vw / 8);
+}
+
+.card__enlightened {
+  background-color: #c8d2db;
+}
+
+.card__void {
+  background-color: #9f7ab0;
+}
+
+.cardTitle {
+
+  h3 {
+    margin: 0;
+  }
+
+}
+
+.cardType {
+
+  h4 {
+    margin: 0;
+  }
+
+}
+
+.cardText {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-left: -10px;
+  padding: 10px;
+  width: calc(100vw / 8);
+}
+
+.cardTextText {
+  margin: 0;
+}
+
+.cardQuote {
+
+}
+
+.cardQuoteText {
+  font-size: 13px;
+}
+
+.cardCost {
+  border-color: transparent transparent #ffffff transparent;
+  border-style: solid;
+  border-width: 0 25px 50px 25px;
+  height: 0;
+  line-height: 50px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 0;
+}

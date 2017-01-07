@@ -1,0 +1,13 @@
+.centerCardHolder {
+  background-color: #000;
+  display: inline-block;
+  height: 100%;
+  margin: 0 0 0 20px;
+  position: relative;
+  vertical-align: top;
+  width: calc(100vw / 8);
+}
+
+#centerCardHolders .centerCardHolder:first-child {
+  margin-left: 0;
+}

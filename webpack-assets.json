@@ -1,0 +1,32 @@
+{
+  "javascript": {
+    "main": "http://localhost:8080/main.js"
+  },
+  "styles": {},
+  "assets": {
+    "./src/containers/App/App.css": {
+      "_style": "body {\n  min-height: 100vh;\n  margin: 0;\n  padding: 0;\n}\n\nul, li {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\na {\n  color: #333;\n  text-decoration: none;\n}\n"
+    },
+    "./src/components/Board/index.css": {
+      "_style": "#board {\n  background-color: #eee;\n  height: 100vh;\n  width: 100vw;\n}\n"
+    },
+    "./src/components/Center/index.css": {
+      "_style": "#center {\n  background-color: #333;\n  box-sizing: border-box;\n  height: 50%;\n  padding: 20px;\n  position: relative;\n  width: 100%;\n}\n\n#centerCardHolders {\n  height: 100%;\n  text-align: center;\n  width: 100%;\n}\n"
+    },
+    "./src/components/Card/index.css": {
+      "_style": ".card {\n  background-color: #fff;\n  box-sizing: border-box;\n  display: inline-block;\n  height: 100%;\n  margin: 0;\n  padding: 10px;\n  position: relative;\n  text-align: left;\n  width: calc(100vw / 8);\n}\n\n.card__enlightened {\n  background-color: #c8d2db;\n}\n\n.card__void {\n  background-color: #9f7ab0;\n}\n\n.cardTitle {\n\n  h3 {\n    margin: 0;\n  }\n\n}\n\n.cardType {\n\n  h4 {\n    margin: 0;\n  }\n\n}\n\n.cardText {\n  background-color: #fff;\n  box-sizing: border-box;\n  margin-left: -10px;\n  padding: 10px;\n  width: calc(100vw / 8);\n}\n\n.cardTextText {\n  margin: 0;\n}\n\n.cardQuote {\n\n}\n\n.cardQuoteText {\n  font-size: 13px;\n}\n\n.cardCost {\n  border-color: transparent transparent #ffffff transparent;\n  border-style: solid;\n  border-width: 0 25px 50px 25px;\n  height: 0;\n  line-height: 50px;\n  position: absolute;\n  right: 5px;\n  top: 5px;\n  width: 0;\n}\n"
+    },
+    "./src/components/CenterCardHolder/index.css": {
+      "_style": ".centerCardHolder {\n  background-color: #000;\n  display: inline-block;\n  height: 100%;\n  margin: 0 0 0 20px;\n  position: relative;\n  vertical-align: top;\n  width: calc(100vw / 8);\n}\n\n#centerCardHolders .centerCardHolder:first-child {\n  margin-left: 0;\n}\n"
+    },
+    "./src/components/Toolbar/index.css": {
+      "_style": "#toolbar {\n  background-color: #fff;\n  height: 50px;\n  position: relative;\n  width: 100%;\n}\n\n#menu {\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 100px;\n\n  li a {\n    cursor: pointer;\n  }\n}\n\n#settingsMenu {\n  background-color: #fff;\n  box-sizing: border-box;\n  height: 100px;\n  padding: 10px;\n  position: absolute;\n  right: 0;\n  top: 50px;\n  z-index: 1001;\n}\n"
+    },
+    "./src/containers/Index/Index.scss": {
+      "wrapper": "wrapper__3iNGN",
+      "jumbotron": "jumbotron__2_vbE",
+      "description": "description__3Cj8g",
+      "_style": ".wrapper__3iNGN {\n  margin-top: 50px;\n}\n\n.jumbotron__2_vbE {\n  background-color: #333;\n  color: #ffffff;\n  text-align: center;\n  padding: 80px 0;\n}\n\n.jumbotron__2_vbE h1 {\n  font-size: 8em;\n  margin-top: 0;\n}\n\n.jumbotron__2_vbE .description__3Cj8g {\n  font-size: 1.5em;\n  margin-bottom: 30px;\n}"
+    }
+  }
+}
